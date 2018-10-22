@@ -33,6 +33,7 @@ header h1
    font-family: "Comic Sans MS",Arial,Helvetica,sans-serif;
    text-align:center;
 }
+
 header .logo
 {
    float: left;
@@ -52,12 +53,18 @@ nav a
 }
 nav h1  /* menu */
 {
-   background-color: white;
+   background-color: #008500;
+   color:#ff3d00;
    position: relative;
-   left:5%;
+   left:40%;
    width: 15%;
    overflow: hidden;
    border-radius: 20%;
+   text-align: center;
+}
+nav h1 : hover
+{
+   background-color: white;
 }
 nav h2/* entrees plats desserts*/
 {
