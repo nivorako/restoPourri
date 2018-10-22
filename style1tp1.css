@@ -6,6 +6,7 @@ body
    font-size:small;
    margin:2em 1%;
    padding:0;
+
 }
 /*cadre de la page*/
 #page
@@ -18,50 +19,56 @@ body
    border:3px solid #000000;
    min-height:55em;
    height:55em;
+   border-radius: 5%;
 }
 header
 {
    margin: 2em 3% 1% 3%;
    padding:0.05em 0 0.05em 0;
-   background-color: #ffd000;
+   background-color: #86b32d;
    border-radius:25px;
 }
 header h1
 {
-   font-family: Comic Sans MS",Arial,Helvetica,sans-serif;
-   text-align:center;;
+   font-family: "Comic Sans MS",Arial,Helvetica,sans-serif;
+   text-align:center;
 }
 header .logo
 {
    float: left;
    display: block;
 }
-nav h1
+nav
+{
+   margin: 2em 3% 1% 3%;
+   padding:0.05em 0 0.05em 0;
+   background-color: #9fee00;
+   border-radius:25px;
+}
+nav a
+{
+   display: block;
+   text-decoration: none;
+}
+nav h1  /* menu */
 {
    background-color: white;
    position: relative;
    left:5%;
    width: 15%;
    overflow: hidden;
+   border-radius: 20%;
 }
-nav h2
+nav h2/* entrees plats desserts*/
 {
-   border-color:#f09000;
+  /border-color:#f09000;
    border-style:solid;
    border-width:0 0 3px 0;
    font-size:medium;
    font-weight:700;
-   margin:0;
+   margin:1em;
    padding-left:0em;
    text-transform:uppercase;
-}
-article h2
-{
-   background-color: silver;
-   margin: 0 3% 2em 21%;
-   line-height: 5em;
-   padding:0 2% 3em 2%;
-   color:#000000;
 }
 ul
 {
@@ -72,6 +79,27 @@ li
 {
    list-style: none;
 }
+article h2 /* manifeste */
+{
+   /*background-color: silver;
+   margin: 0 3% 2em 3%;
+   line-height: 150%;
+   padding:2em 2% 2em 2%;
+   color:#000000;*/
+   text-align:center;
+   border-radius:30px;  
+}
+article
+{
+   background-color: #b9f73e;
+   border:1px solid #6090c0;
+   line-height:150%;
+   margin:0 3% 2em 3%;
+   padding:2em 2% 2em 2%;
+   color:#000000;
+   border-radius:25px;  
+}
+
 html>body #page
 {
    height:auto;
