@@ -105,7 +105,6 @@ article
    padding:2em 2% 2em 2%;
    color:#000000;
    border-radius:25px; 
-   width:50%; 
 }
 a
 {
@@ -113,7 +112,7 @@ a
 }
 footer 
 {
-   margin: 2em 1%;
+   margin-top: 2em;
    background-color: #bfb130;
    border: solid black;
    border-radius: 2em/2em;
