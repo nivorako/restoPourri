@@ -46,7 +46,7 @@ nav a
    display: block;
    text-decoration: none;
 }
-nav h1  /* menu */
+section h1  /* menu */
 {
    background-color: #008500;
    color:#9fee00;
@@ -71,7 +71,9 @@ nav h2/* entrees plats desserts*/
 }
 ul
 {
-   display: inline-flex;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
    margin-bottom:1.5em;
    margin-top:0.5em;
    padding: 2em;
@@ -79,7 +81,7 @@ ul
 li
 {
    list-style: none;
-   margin: 5em;
+   margin: 1em;
 
 }
 li:hover
@@ -121,4 +123,13 @@ footer
 html>body #page
 {
    height:auto;
+}
+#conteneur
+{
+   display: flex;
+   justify-content: space-around;
+}
+.element:nth-child(1)
+{
+
 }
