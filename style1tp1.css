@@ -60,14 +60,18 @@ section h1  /* menu */
 }
 nav h2/* entrees plats desserts*/
 {
-  /border-color:#f09000;
+   position: relative;
+   left: 10%;
+   border-color:#f09000;
    border-style:solid;
    border-width:0 0 3px 0;
+   width: 150px;
    font-size:medium;
    font-weight:700;
    margin:1em;
-   padding-left:0em;
+   padding-left:2em;
    text-transform:uppercase;
+   text-align: center;
 }
 ul
 {
@@ -95,7 +99,7 @@ article h2 /* manifeste */
    line-height: 150%;
    padding:2em 2% 2em 2%;
    color:#000000;*/
-   text-align:center;
+   text-align: left;
    border-radius:30px;  
 }
 article 
@@ -128,8 +132,21 @@ html>body #page
 {
    display: flex;
    justify-content: space-around;
+   height: 500px;
 }
-.element:nth-child(1)
+.element
 {
-
+   display:flex;
+   flex-direction: column;  
+}
+.el1   /* ul */
+{
+   display: flex;
+   flex-direction: column;
+   height: 400px;
+}
+.el2 /* plats li*/
+{
+   border: black solid;
+   max-width: 100px;
 }
